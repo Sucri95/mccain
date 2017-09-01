@@ -5428,7 +5428,10 @@ button.list-group-item-danger.active:hover {
     margin-bottom: 0
 }
 .panel-body {
-    padding: 15px
+    padding: 15px;
+}
+.panel-body.title{
+    text-align: center;
 }
 .panel-body:after,
 .panel-body:before {
