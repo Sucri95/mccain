@@ -12,8 +12,11 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/general.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
@@ -81,7 +84,10 @@
         @yield('content')
     </div>
 
+    @yield('jsfunctions')
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <script src="/js/uploads.js"></script>
+    <script src="/js/previews.js"></script>
 </body>
 </html>

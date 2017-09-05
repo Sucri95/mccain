@@ -48,3 +48,144 @@ html, body {
 .m-b-md {
     margin-bottom: 30px;
 }
+
+.img-container,
+.logo-container{
+    width: 100%;
+    min-height: 5em;
+    border: 1px solid #ebebe7;
+    margin-top: 0.7em;
+    position: relative;
+}
+.relative-container{
+    position: relative;
+    width: 100%;
+    min-height: 5em;
+    border: 1px solid #ebebe7;
+    margin-top: 0.7em;
+}
+.images-con{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.form-input{
+    width: 100%;
+    border: 1px solid #ebebe7;
+    padding: 5px;
+}
+
+.description{
+    width: 100%;
+    height: 5em;
+    border: 1px solid #ebebe7;
+    margin-bottom: 1em;
+    padding: 5px;
+    resize: none;
+}
+
+.icon-container,
+.icologo-container{
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    border: 1px solid #ebebe7;
+    cursor: pointer;
+}
+.fa.fa-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.unactive{
+    display: none!important;
+}
+.button-container{
+    margin-top: 1em;
+    text-align: center;
+}
+.form-input{
+    margin-bottom: 1em;
+}
+.title-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(10%, 5%);  
+}
+
+.buttonT-container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-10%, 17%);
+    margin-top: 0;
+}
+.heading-title{
+    border: 1px solid #ebebe7;
+}
+.preview{
+    border: 1px solid #ebebe7;
+    width: 340px;
+    height: 175px;
+    margin: 0.5em;
+    float: left;
+    position: relative;
+}
+.back-pic-preview{
+    /*border: 1px solid aquamarine;*/
+    width: 50%;
+    height: 100%;
+    float: left;    
+}
+.logo-pic-preview{
+    border: 1px solid #ebebe7;
+    width: 50%;
+    height: 25%;
+    line-height: 35px;
+    float: right;
+    top: 0;
+    text-align: center;
+}
+.about-preview{
+    /*border: 1px solid cornflowerblue;*/
+    width: 50%;
+    height: 75%;
+    float: right;
+    text-align: center;
+    padding: 5px;
+}
+.about-preview span{
+    font-size: 12px;
+}
+.title-preview{
+    transform: translate(15%, 15%)!important;
+    color: #3097d1;
+}
+.border-top{
+    border-top: 1px solid #d3e0e9;
+}
+.options-container{
+    height: 40px;
+    width: 15px;
+    bottom: 5px;
+    right: 2px;
+    position: absolute;
+}
+.fa-pencil,
+.fa-times{
+    cursor: pointer;
+}
+.fa-times{
+    color: #3097D1;
+}
+.fa-times:hover{
+    color: #216a94;
+}

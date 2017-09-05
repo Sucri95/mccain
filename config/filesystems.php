@@ -54,6 +54,46 @@ return [
             'visibility' => 'public',
         ],
 
+        'accelerators' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/accelerators'),
+            'visibility' => 'public',
+        ],
+        'benefits' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/benefits'),
+            'visibility' => 'public',
+        ],
+        'categories' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/categories'),
+            'visibility' => 'public',
+        ],
+        'demos' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/demos'),
+            'visibility' => 'public',
+        ],
+        'gamewin' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/gamewin'),
+            'visibility' => 'public',
+        ],
+        'news' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/news'),
+            'visibility' => 'public',
+        ],
+        'playwin' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/playwin'),
+            'visibility' => 'public',
+        ],
+        'products' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img/products'),
+            'visibility' => 'public',
+        ],
         's3' => [
             'driver' => 's3',
             'key' => 'your-key',

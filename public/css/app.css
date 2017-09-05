@@ -5432,6 +5432,7 @@ button.list-group-item-danger.active:hover {
 }
 .panel-body.title{
     text-align: center;
+    font-size: 18px;
 }
 .panel-body:after,
 .panel-body:before {
